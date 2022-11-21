@@ -19,8 +19,8 @@
 //     project: {},
 // };
 // alert(userData)
-var useLogging = true;
-var useTimer = false;
+var useLogging = true
+var useTimer = false
 // 
 ///////////////////////////////////////////////////
 
@@ -74,7 +74,6 @@ function getArtboardLogoTypes(docRef, strip) {
 function generateLogoVariation(clientName, logotype, mediaType, sepaRator, forMats, autoResize) {
     docRef = app.activeDocument;
     logotypes = getArtboardLogoTypes(docRef, false);
-    clearedItemsDocs = ['']; // clear list of doc with cleared swatches
     if (logotype == "alltypes") {
         abLength = docRef.artboards.length;
         for (ab = 0; ab < abLength; ab++) {
@@ -117,31 +116,14 @@ function createLogoTypes(docRef, clientName, logotype, mediaType, sepaRator, for
         var hasDoc = false;
         var initArtboardsLength = 1;
         // colors variation
-        // Set black and white print colors
-        var black = mediaType == 'Print' ? new CMYKColor() : new RGBColor();
-        var white = mediaType == 'Print' ? new CMYKColor() : new RGBColor();
-        if (mediaType == 'Print'){
-            black.cyan = 0;
-            black.magenta = 0;
-            black.yellow = 0;
-            black.black = 100;
-            white.cyan = 0;
-            white.magenta = 0;
-            white.yellow = 0;
-            white.black = 0;
-        } else {
-            black.red = 0;
-            black.green = 0;
-            black.blue = 0;
-            white.blue = 255;
-            white.red = 255;
-            white.green = 255;
-        }
-        
+        var black = new RGBColor(0, 0, 0);
+        var white = new RGBColor();
+        white.blue = 255;
+        white.red = 255;
+        white.green = 255;
         var colors = ['grayscale', black, white];
         var artboardsName = ['grayscale', 'black', 'white'];
         var mediatype = mediaType == 'Print' ? 'cmyk' : 'rgb';
-        var rasterEffectSettings = mediaType == 'Print' ? '300' : '72'
         // var mediaTypeFolder = mediaType;
 
         // if (!selDoc) app.copy();
@@ -179,7 +161,6 @@ function createLogoTypes(docRef, clientName, logotype, mediaType, sepaRator, for
         docRef.coordinateSystem = CoordinateSystem.DOCUMENTCOORDINATESYSTEM;
         docRef.rulerOrigin = [0, 0];
         docRef.pageOrigin = [0, 0];
-        docRef.rasterEffectSettings.resolution = rasterEffectSettings;
 
         docRef.artboards[initArtboardsLength - 1].name = logotype + separator + 'fullcolor' + separator + mediatype
 
@@ -252,6 +233,7 @@ function createLogoTypes(docRef, clientName, logotype, mediaType, sepaRator, for
 
             // Add logo info
             // addLogoInfo(docRef, artboardsName[i], posX);
+
             fillColor(firstObj, colors[i]);
 
             //select the latest object
@@ -306,9 +288,7 @@ function exportFiles(mediaType, logotype, forMats, subFolders, checkABhasArt) {
 
     // Timer Tom Ruark 
     // Source: Getter.jsx
-    if (useTimer){
-        var totalTime = new Timer();
-    }
+    var totalTime = new Timer();
 
     appendLog('Starting Export ', logFile);
     // alert(subFolders)
@@ -472,9 +452,7 @@ function exportFiles(mediaType, logotype, forMats, subFolders, checkABhasArt) {
             // return timeElapsed
             appendLog('Export Done', logFile);
             // logFile.close()
-            if (useTimer){
-                alert("Script Time: " + totalTime.getElapsed())
-            }
+            alert("Script Time: " + totalTime.getElapsed())
 
             run = true
             return run
@@ -578,7 +556,6 @@ function exportFiles(mediaType, logotype, forMats, subFolders, checkABhasArt) {
         var ai = forMats.indexOf("ai")
         var pdf = forMats.indexOf("pdf");
         var svg = forMats.indexOf("svg");
-        var eps = forMats.indexOf("eps");
         var jpg = forMats.indexOf("jpg");
         var png = forMats.indexOf("png");
         var scaleArtwork = null;
@@ -622,13 +599,6 @@ function exportFiles(mediaType, logotype, forMats, subFolders, checkABhasArt) {
             var svgFolder = new Folder(destPath + "/SVG");
             if (!svgFolder.exists) {
                 svgFolder.create();
-            }
-        }
-        
-        if (eps !== -1) {
-            var epsFolder = new Folder(destPath + "/EPS");
-            if (!epsFolder.exists) {
-                epsFolder.create();
             }
         }
 
@@ -675,7 +645,6 @@ function exportFiles(mediaType, logotype, forMats, subFolders, checkABhasArt) {
                 // https://stackoverflow.com/questions/44625594/remove-is-not-a-function-error-in-photoshop-cc-2017-extendscript-tool-kit
                 var docPath = new Folder(docRef.path);
                 var saveFile = new File(docPath + "/" + docRef.name);
-
                 if (afile.exists) {
                     saveFile.remove();
                 }
@@ -827,32 +796,6 @@ function exportFiles(mediaType, logotype, forMats, subFolders, checkABhasArt) {
                 options.fontType = SVGFontType.OUTLINEFONT;
 
                 app.activeDocument.exportForScreens(svgFolder, ExportForScreensType.SE_SVG, options, whatToExport, fileNamePrefix);
-            }
-        }
-        
-        if (eps !== -1) {
-            if (epsFolder != null) {
-                // var options = new ExportForScreensOptionsWebOptimizedSVG();
-                // options.cssProperties = SVGCSSPropertyLocation.PRESENTATIONATTRIBUTES;
-                // options.coordinatePrecision = 5;
-                // options.fontType = SVGFontType.OUTLINEFONT;
-
-                // app.activeDocument.exportForScreens(svgFolder, ExportForScreensType.SE_SVG, options, whatToExport, fileNamePrefix);
-                //save eps
-                options = new EPSSaveOptions();
-                options.embedLinkedFiles = true;
-                options.includeDocumentThumbnails = true;
-                options.saveMultipleArtboards = true;
-
-                docRef.saveAs(epsFolder, options);
-                // Remove multiartboard EPS file
-                // https://stackoverflow.com/questions/44625594/remove-is-not-a-function-error-in-photoshop-cc-2017-extendscript-tool-kit
-                var docPath = new Folder(docRef.path);
-                var saveFile = new File(docPath + "/" + docRef.name);
-                epsFile = docRef.fullName
-                if (epsFile.exists) {
-                    epsFile.remove();
-                }
             }
         }
 
@@ -1158,7 +1101,7 @@ function setDestFolderFromJson(setDestFromJson) {
 function clearDestFolder() {
     setDest = Folder(setDest);
     // Find temp files windows, need to be deleted as well
-    filter_files = /\.(jpg|psd|png|svg|ai|pdf|eps|DS_STORE)$/i;
+    filter_files = /\.(jpg|psd|png|svg|ai|pdf|DS_STORE)$/i;
 
     // We need to delete files first before fodler can be deleted
     if (setDest.exists) {
@@ -1463,7 +1406,7 @@ function errorEvent(errorNumber) {
 // 
 // Add margins to Artboards
 // 
-function addMarginToArtboard(marginVal, margintype, allArtboards) {
+function addMarginToArtboard(marginVal, margintype) {
     run = false;
     if (margins == "") {
         run = "margins";
@@ -1487,8 +1430,7 @@ function addMarginToArtboard(marginVal, margintype, allArtboards) {
         margins.px = margins.mm / 16; // 1cm > 28.3
 
         if (app.documents.length > 0) {
-            var allArtboards = allArtboards == "all" ? true : false;
-            // var allArtboards = Window.confirm("Yes - All Artboards \nNo - Active Artboard", false, title);
+            var allArtboards = Window.confirm("Yes - All Artboards \nNo - Active Artboard", false, title);
             if (allArtboards) {
                 // we do reverse so we dont drag other artwork around
                 for (i = ABs.length; i > 0; i--) {

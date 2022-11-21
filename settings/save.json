@@ -1,22 +1,21 @@
 {
     "generation": {
-        "client": "square ",
-        "type": "logo",
-        "mediatype": "Print",
+        "client": "surf",
+        "type": "alltypes",
+        "mediatype": "Digital",
         "separator": {
             "dash": true,
             "underscore": false
         }
     },
     "export": {
-        "destfolder": "~/Desktop/Export/Logo%20Packer/Square",
+        "destfolder": "~/Desktop/Export/Logo%20Packer/surfscool",
         "formats": {
-            "ai": true,
-            "pdf": true,
+            "ai": false,
+            "pdf": false,
             "svg": true,
-            "eps": true,
             "jpg": true,
-            "png": false
+            "png": true
         }
     },
     "extras": {
