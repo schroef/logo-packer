@@ -1,6 +1,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.3.3.1] - 2024-01-17
+### Fixed
+- getLogoColorList() docRef was not declared was earlier fix caused issues when generating all logo types. Removed the docref, was not used anyways
+
+## [1.3.3] - 2024-01-17
+### Fixed
+- When adding margins > getLogoColorList() docRef was not declared
+- Issue counting artboardnames (color) when adding logoinfo > i was adding Number to Object > colors.length + would do 51 instead of 5+1=6 
+
+### Changed
+- Changed adding logo info when margins are changed, when adjusting single artboard it caused issues. Now it adds logo info on all arboards, but only adjust 1 single artboards margins. Works better
+
+### Added
+- Some input like clientname and margins have regex now. So forbidden characters are stripped.
+- loading JSON settings file also correct forbidden characters now
+
 ## [1.3.2.1] - 2023-06-27
 ### Fixed
 - Fixed canceletaion when inverted logo type used, but no dialog shpowed, it would still cancel logo generation

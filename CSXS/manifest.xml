@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<ExtensionManifest Version="6.0" ExtensionBundleId="com.doingdesign.logopacker" ExtensionBundleVersion="1.3.6" ExtensionBundleName="Logo Packer"
+<ExtensionManifest Version="6.0" ExtensionBundleId="com.doingdesign.logopacker" ExtensionBundleVersion="1.3.3" ExtensionBundleName="Logo Packer"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ExtensionList>
-		<Extension Id="com.doingdesign.logopacker" Version="1.3.6" />
+		<Extension Id="com.doingdesign.logopacker" Version="1.3.3" />
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
-			<Host Name="ILST" Version="[17.0,28.1]" />
+			<Host Name="ILST" Version="[17.0,99.9]" />
 		</HostList>
 		<LocaleList>
 			<Locale Code="All" />
 		</LocaleList>
 		<RequiredRuntimeList>
-			<RequiredRuntime Name="CSXS" Version="11.0" />
+			<RequiredRuntime Name="CSXS" Version="6.0" />
 		</RequiredRuntimeList>
 	</ExecutionEnvironment>
 	<DispatchInfoList>
@@ -23,9 +22,9 @@
 					<MainPath>./index.html</MainPath>
 					<ScriptPath>./jsx/hostscript.jsx</ScriptPath>
 					<CEFCommandLine>
-							<Parameter>--mixed-context</Parameter>
-							<Parameter>--enable-nodejs</Parameter>
-					</CEFCommandLine>
+                        <Parameter>--mixed-context</Parameter>
+                        <Parameter>--enable-nodejs</Parameter>
+                    </CEFCommandLine>
 				</Resources>
 				<Lifecycle>
 					<AutoVisible>true</AutoVisible>

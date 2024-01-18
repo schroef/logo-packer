@@ -1,0 +1,1008 @@
+19:23:40  |  
+19:23:40  |  ____________________________
+19:23:40  |  /c/Program%20Files/Common%20Files/Adobe/CEP/Extensions/logo-packer-main/logo-packer.log
+19:23:40  |  New log: 17-01-2024
+19:23:40  |  
+19:23:40  |  setDestFolderFromJson()
+19:23:40  |  ~/Desktop/Export/Logo%20Packer/Interieurcom
+19:24:30  |  setDestFolderFromJson()
+19:24:30  |  ~/Desktop/Export/Logo%20Packer/Interieurcom
+19:24:34  |  
+19:24:34  |  generateLogoVariation()
+19:24:34  |  interieuspullencom 
+			 alltypes 
+			 fullcolor,inverted,black,white 
+			 false,SpotColor,PANTONE 3275 C 
+			 Digital 
+			 dash 
+			 ai,svg,jpg,png 
+			 autoresize 
+			 C:/Program Files/Common Files/Adobe/CEP/extensions/logo-packer-main 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 true,true,15-10-10-95,true,5-5-5
+19:24:34  |  createLogoTypes()
+19:24:35  |  Create fullcolor logo
+19:24:35  |  deleteUnusedPanelItems()
+19:24:36  |  resizeLogo()
+19:24:36  |  [GroupItem interieuspullencom-logo] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 upscale
+19:24:36  |  resizeArtboard()
+19:24:36  |  [GroupItem interieuspullencom-logo]
+19:24:36  |  resizeLogo()
+19:24:36  |  [GroupItem interieuspullencom-logo] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 downscale
+19:24:36  |  resizeArtboard()
+19:24:36  |  [GroupItem interieuspullencom-logo]
+19:24:36  |  Create inverted logo
+19:24:36  |  fillColor()
+19:24:36  |  Color inverted
+19:24:37  |  inverseLogo()
+19:24:37  |  Create black logo
+19:24:37  |  fillColor()
+19:24:37  |  Color [RGBColor]
+19:24:37  |  Create white logo
+19:24:37  |  fillColor()
+19:24:37  |  Color [RGBColor]
+19:24:38  |  createLogoTypes()
+19:24:39  |  Create fullcolor logo
+19:24:39  |  resizeLogo()
+19:24:39  |  [GroupItem interieuspullencom-logomark] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 upscale
+19:24:39  |  resizeArtboard()
+19:24:39  |  [GroupItem interieuspullencom-logomark]
+19:24:39  |  resizeLogo()
+19:24:39  |  [GroupItem interieuspullencom-logomark] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 downscale
+19:24:39  |  resizeArtboard()
+19:24:39  |  [GroupItem interieuspullencom-logomark]
+19:24:39  |  Create inverted logo
+19:24:39  |  fillColor()
+19:24:39  |  Color inverted
+19:24:39  |  inverseLogo()
+19:24:40  |  Create black logo
+19:24:40  |  fillColor()
+19:24:40  |  Color [RGBColor]
+19:24:40  |  Create white logo
+19:24:40  |  fillColor()
+19:24:40  |  Color [RGBColor]
+19:24:41  |  createLogoTypes()
+19:24:41  |  Create fullcolor logo
+19:24:41  |  resizeLogo()
+19:24:41  |  [GroupItem interieuspullencom-logotype] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 upscale
+19:24:41  |  resizeArtboard()
+19:24:41  |  [GroupItem interieuspullencom-logotype]
+19:24:41  |  resizeLogo()
+19:24:41  |  [GroupItem interieuspullencom-logotype] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 downscale
+19:24:41  |  resizeArtboard()
+19:24:41  |  [GroupItem interieuspullencom-logotype]
+19:24:42  |  Create inverted logo
+19:24:42  |  fillColor()
+19:24:42  |  Color inverted
+19:24:42  |  inverseLogo()
+19:24:42  |  Create black logo
+19:24:42  |  fillColor()
+19:24:42  |  Color [RGBColor]
+19:24:42  |  Create white logo
+19:24:42  |  fillColor()
+19:24:42  |  Color [RGBColor]
+19:24:43  |  createLogoTypes()
+19:24:43  |  Create fullcolor logo
+19:25:30  |  
+19:25:30  |  generateLogoVariation()
+19:25:30  |  interieuspullencom 
+			 alltypes 
+			 fullcolor,inverted,black,white 
+			 false,SpotColor,PANTONE 3275 C 
+			 Digital 
+			 dash 
+			 ai,svg,jpg,png 
+			 autoresize 
+			 C:/Program Files/Common Files/Adobe/CEP/extensions/logo-packer-main 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 true,true,15-10-10-95,true,5-5-5
+19:25:30  |  createLogoTypes()
+19:25:31  |  Create fullcolor logo
+19:25:31  |  deleteUnusedPanelItems()
+19:25:32  |  resizeLogo()
+19:25:32  |  [GroupItem interieuspullencom-logo] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 upscale
+19:25:32  |  resizeArtboard()
+19:25:32  |  [GroupItem interieuspullencom-logo]
+19:25:32  |  resizeLogo()
+19:25:32  |  [GroupItem interieuspullencom-logo] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 downscale
+19:25:32  |  resizeArtboard()
+19:25:32  |  [GroupItem interieuspullencom-logo]
+19:25:32  |  Create inverted logo
+19:25:32  |  fillColor()
+19:25:32  |  Color inverted
+19:25:32  |  inverseLogo()
+19:25:32  |  Create black logo
+19:25:33  |  fillColor()
+19:25:33  |  Color [RGBColor]
+19:25:33  |  Create white logo
+19:25:33  |  fillColor()
+19:25:33  |  Color [RGBColor]
+19:25:34  |  createLogoTypes()
+19:25:34  |  Create fullcolor logo
+19:25:34  |  resizeLogo()
+19:25:34  |  [GroupItem interieuspullencom-logomark] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 upscale
+19:25:34  |  resizeArtboard()
+19:25:35  |  [GroupItem interieuspullencom-logomark]
+19:25:35  |  resizeLogo()
+19:25:35  |  [GroupItem interieuspullencom-logomark] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 downscale
+19:25:35  |  resizeArtboard()
+19:25:35  |  [GroupItem interieuspullencom-logomark]
+19:25:35  |  Create inverted logo
+19:25:35  |  fillColor()
+19:25:35  |  Color inverted
+19:25:35  |  inverseLogo()
+19:25:35  |  Create black logo
+19:25:35  |  fillColor()
+19:25:35  |  Color [RGBColor]
+19:25:36  |  Create white logo
+19:25:36  |  fillColor()
+19:25:36  |  Color [RGBColor]
+19:25:36  |  createLogoTypes()
+19:25:37  |  Create fullcolor logo
+19:25:37  |  resizeLogo()
+19:25:37  |  [GroupItem interieuspullencom-logotype] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 upscale
+19:25:37  |  resizeArtboard()
+19:25:37  |  [GroupItem interieuspullencom-logotype]
+19:25:37  |  resizeLogo()
+19:25:37  |  [GroupItem interieuspullencom-logotype] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 downscale
+19:25:37  |  resizeArtboard()
+19:25:37  |  [GroupItem interieuspullencom-logotype]
+19:25:37  |  Create inverted logo
+19:25:37  |  fillColor()
+19:25:37  |  Color inverted
+19:25:38  |  inverseLogo()
+19:25:38  |  Create black logo
+19:25:38  |  fillColor()
+19:25:38  |  Color [RGBColor]
+19:25:38  |  Create white logo
+19:25:38  |  fillColor()
+19:25:38  |  Color [RGBColor]
+19:25:39  |  createLogoTypes()
+19:25:39  |  Create fullcolor logo
+19:25:39  |  resizeLogo()
+19:25:39  |  [GroupItem interieuspullencom-payoff] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 upscale
+19:25:39  |  resizeArtboard()
+19:25:39  |  [GroupItem interieuspullencom-payoff]
+19:25:39  |  resizeLogo()
+19:25:39  |  [GroupItem interieuspullencom-payoff] 
+			 autoresize 
+			 0,true,true,true,true,4,false,true,true,true,0,true,true,true,true,true,0,0,1,1,2,5,true,true,2,1,1,true,1,true,0,true,1000-2000-512,0,w 
+			 downscale
+19:25:39  |  resizeArtboard()
+19:25:39  |  [GroupItem interieuspullencom-payoff]
+19:25:40  |  Create inverted logo
+19:25:40  |  fillColor()
+19:25:40  |  Color inverted
+19:25:40  |  inverseLogo()
+19:25:40  |  Create black logo
+19:25:40  |  fillColor()
+19:25:40  |  Color [RGBColor]
+19:25:40  |  Create white logo
+19:25:40  |  fillColor()
+19:25:40  |  Color [RGBColor]
+19:25:41  |  
+19:25:41  |  setLogoInfo()
+19:25:41  |  [Document interieuspullencom] 
+			 logo 
+			 inverted,black,white 
+			 1 
+			 1
+19:25:41  |  initArtboardsLength 1
+19:25:41  |  addLogoInfo()
+19:25:41  |  logo 
+			 402 
+			 2380.21014046876 
+			 right
+19:25:41  |  Add logo info Error: No such element
+19:25:41  |  addLogoInfo()
+19:25:41  |  fullcolor 
+			 417 
+			 2408.21014046876 
+			 left
+19:25:41  |  addLogoInfo()
+19:25:41  |  inverted 
+			 1083.92913385827 
+			 2408.21014046876 
+			 left
+19:25:41  |  addLogoInfo()
+19:25:41  |  black 
+			 1750.85826771653 
+			 2408.21014046876 
+			 left
+19:25:41  |  addLogoInfo()
+19:25:42  |  white 
+			 2417.7874015748 
+			 2408.21014046876 
+			 left
+19:25:42  |  
+19:25:42  |  setLogoInfo()
+19:25:42  |  [Document interieuspullencom] 
+			 logomark 
+			 inverted,black,white 
+			 5 
+			 5
+19:25:42  |  initArtboardsLength 5
+19:25:42  |  addLogoInfo()
+19:25:42  |  logomark 
+			 402 
+			 2149.49159924967 
+			 right
+19:25:42  |  addLogoInfo()
+19:25:42  |  fullcolor 
+			 417 
+			 2177.49159924967 
+			 left
+19:25:42  |  addLogoInfo()
+19:25:42  |  inverted 
+			 1083.92146933939 
+			 2177.49159924967 
+			 left
+19:25:42  |  addLogoInfo()
+19:25:42  |  black 
+			 1750.84293867878 
+			 2177.49159924967 
+			 left
+19:25:42  |  addLogoInfo()
+19:25:42  |  white 
+			 2417.76440801816 
+			 2177.49159924967 
+			 left
+19:25:42  |  
+19:25:42  |  setLogoInfo()
+19:25:42  |  [Document interieuspullencom] 
+			 logotype 
+			 inverted,black,white 
+			 9 
+			 9
+19:25:42  |  initArtboardsLength 9
+19:25:42  |  addLogoInfo()
+19:25:42  |  logotype 
+			 402 
+			 1482.5624653914 
+			 right
+19:25:42  |  addLogoInfo()
+19:25:42  |  fullcolor 
+			 417 
+			 1510.5624653914 
+			 left
+19:25:42  |  addLogoInfo()
+19:25:42  |  inverted 
+			 1083.92913385827 
+			 1510.5624653914 
+			 left
+19:25:42  |  addLogoInfo()
+19:25:42  |  black 
+			 1750.85826771653 
+			 1510.5624653914 
+			 left
+19:25:42  |  addLogoInfo()
+19:25:42  |  white 
+			 2417.7874015748 
+			 1510.5624653914 
+			 left
+19:25:42  |  
+19:25:42  |  setLogoInfo()
+19:25:42  |  [Document interieuspullencom] 
+			 payoff 
+			 inverted,black,white 
+			 13 
+			 13
+19:25:42  |  initArtboardsLength 13
+19:25:42  |  addLogoInfo()
+19:25:42  |  payoff 
+			 402 
+			 1204.94911544417 
+			 right
+19:25:42  |  addLogoInfo()
+19:25:42  |  fullcolor 
+			 417 
+			 1232.94911544417 
+			 left
+19:25:42  |  addLogoInfo()
+19:25:42  |  inverted 
+			 1083.92913385827 
+			 1232.94911544417 
+			 left
+19:25:42  |  addLogoInfo()
+19:25:42  |  black 
+			 1750.85826771654 
+			 1232.94911544417 
+			 left
+19:25:42  |  addLogoInfo()
+19:25:42  |  white 
+			 2417.7874015748 
+			 1232.94911544417 
+			 left
+19:30:36  |  
+19:30:36  |  setLogoInfo()
+19:30:36  |  [Document interieuspullencom] 
+			 logo 
+			 inverted,black,white 
+			 1 
+			 1
+19:30:36  |  initArtboardsLength 1
+19:30:36  |  addLogoInfo()
+19:30:36  |  logo 
+			 402 
+			 2380.21014046876 
+			 right
+19:30:36  |  Add logo info Error: No such element
+19:30:36  |  addLogoInfo()
+19:30:36  |  fullcolor 
+			 417 
+			 2408.21014046876 
+			 left
+19:30:36  |  addLogoInfo()
+19:30:36  |  inverted 
+			 1083.92913385827 
+			 2408.21014046876 
+			 left
+19:30:36  |  addLogoInfo()
+19:30:36  |  black 
+			 1750.85826771653 
+			 2408.21014046876 
+			 left
+19:30:36  |  addLogoInfo()
+19:30:36  |  white 
+			 2417.7874015748 
+			 2408.21014046876 
+			 left
+19:30:36  |  
+19:30:37  |  setLogoInfo()
+19:30:37  |  [Document interieuspullencom] 
+			 logomark 
+			 inverted,black,white 
+			 5 
+			 5
+19:30:37  |  initArtboardsLength 5
+19:30:37  |  addLogoInfo()
+19:30:37  |  logomark 
+			 402 
+			 2149.49159924967 
+			 right
+19:30:37  |  addLogoInfo()
+19:30:37  |  fullcolor 
+			 417 
+			 2177.49159924967 
+			 left
+19:30:37  |  addLogoInfo()
+19:30:37  |  inverted 
+			 1083.92146933939 
+			 2177.49159924967 
+			 left
+19:30:37  |  addLogoInfo()
+19:30:37  |  black 
+			 1750.84293867878 
+			 2177.49159924967 
+			 left
+19:30:37  |  addLogoInfo()
+19:30:37  |  white 
+			 2417.76440801816 
+			 2177.49159924967 
+			 left
+19:30:37  |  
+19:30:37  |  setLogoInfo()
+19:30:37  |  [Document interieuspullencom] 
+			 logotype 
+			 inverted,black,white 
+			 9 
+			 9
+19:30:37  |  initArtboardsLength 9
+19:30:37  |  addLogoInfo()
+19:30:37  |  logotype 
+			 402 
+			 1482.5624653914 
+			 right
+19:30:37  |  addLogoInfo()
+19:30:37  |  fullcolor 
+			 417 
+			 1510.5624653914 
+			 left
+19:30:37  |  addLogoInfo()
+19:30:37  |  inverted 
+			 1083.92913385827 
+			 1510.5624653914 
+			 left
+19:30:37  |  addLogoInfo()
+19:30:37  |  black 
+			 1750.85826771653 
+			 1510.5624653914 
+			 left
+19:30:37  |  addLogoInfo()
+19:30:37  |  white 
+			 2417.7874015748 
+			 1510.5624653914 
+			 left
+19:30:37  |  
+19:30:37  |  setLogoInfo()
+19:30:37  |  [Document interieuspullencom] 
+			 payoff 
+			 inverted,black,white 
+			 13 
+			 13
+19:30:37  |  initArtboardsLength 13
+19:30:37  |  addLogoInfo()
+19:30:37  |  payoff 
+			 402 
+			 1204.94911544417 
+			 right
+19:30:37  |  addLogoInfo()
+19:30:37  |  fullcolor 
+			 417 
+			 1232.94911544417 
+			 left
+19:30:37  |  addLogoInfo()
+19:30:37  |  inverted 
+			 1083.92913385827 
+			 1232.94911544417 
+			 left
+19:30:37  |  addLogoInfo()
+19:30:37  |  black 
+			 1750.85826771654 
+			 1232.94911544417 
+			 left
+19:30:37  |  addLogoInfo()
+19:30:37  |  white 
+			 2417.7874015748 
+			 1232.94911544417 
+			 left
+19:30:42  |  
+19:30:42  |  setLogoInfo()
+19:30:42  |  [Document interieuspullencom] 
+			 logo 
+			 inverted,black,white 
+			 1 
+			 1
+19:30:42  |  initArtboardsLength 1
+19:30:42  |  addLogoInfo()
+19:30:42  |  logo 
+			 402 
+			 2380.21014046876 
+			 right
+19:30:42  |  Add logo info Error: No such element
+19:30:42  |  addLogoInfo()
+19:30:42  |  fullcolor 
+			 417 
+			 2408.21014046876 
+			 left
+19:30:42  |  addLogoInfo()
+19:30:42  |  inverted 
+			 1083.92913385827 
+			 2408.21014046876 
+			 left
+19:30:42  |  addLogoInfo()
+19:30:42  |  black 
+			 1750.85826771653 
+			 2408.21014046876 
+			 left
+19:30:42  |  addLogoInfo()
+19:30:42  |  white 
+			 2417.7874015748 
+			 2408.21014046876 
+			 left
+19:30:43  |  
+19:30:43  |  setLogoInfo()
+19:30:43  |  [Document interieuspullencom] 
+			 logomark 
+			 inverted,black,white 
+			 5 
+			 5
+19:30:43  |  initArtboardsLength 5
+19:30:43  |  addLogoInfo()
+19:30:43  |  logomark 
+			 402 
+			 2149.49159924967 
+			 right
+19:30:43  |  addLogoInfo()
+19:30:43  |  fullcolor 
+			 417 
+			 2177.49159924967 
+			 left
+19:30:43  |  addLogoInfo()
+19:30:43  |  inverted 
+			 1083.92146933939 
+			 2177.49159924967 
+			 left
+19:30:43  |  addLogoInfo()
+19:30:43  |  black 
+			 1750.84293867878 
+			 2177.49159924967 
+			 left
+19:30:43  |  addLogoInfo()
+19:30:43  |  white 
+			 2417.76440801816 
+			 2177.49159924967 
+			 left
+19:30:43  |  
+19:30:43  |  setLogoInfo()
+19:30:43  |  [Document interieuspullencom] 
+			 logotype 
+			 inverted,black,white 
+			 9 
+			 9
+19:30:43  |  initArtboardsLength 9
+19:30:43  |  addLogoInfo()
+19:30:43  |  logotype 
+			 402 
+			 1482.5624653914 
+			 right
+19:30:43  |  addLogoInfo()
+19:30:43  |  fullcolor 
+			 417 
+			 1510.5624653914 
+			 left
+19:30:43  |  addLogoInfo()
+19:30:43  |  inverted 
+			 1083.92913385827 
+			 1510.5624653914 
+			 left
+19:30:43  |  addLogoInfo()
+19:30:43  |  black 
+			 1750.85826771653 
+			 1510.5624653914 
+			 left
+19:30:43  |  addLogoInfo()
+19:30:43  |  white 
+			 2417.7874015748 
+			 1510.5624653914 
+			 left
+19:30:43  |  
+19:30:43  |  setLogoInfo()
+19:30:43  |  [Document interieuspullencom] 
+			 payoff 
+			 inverted,black,white 
+			 13 
+			 13
+19:30:43  |  initArtboardsLength 13
+19:30:43  |  addLogoInfo()
+19:30:43  |  payoff 
+			 402 
+			 1204.94911544417 
+			 right
+19:30:43  |  addLogoInfo()
+19:30:43  |  fullcolor 
+			 417 
+			 1232.94911544417 
+			 left
+19:30:43  |  addLogoInfo()
+19:30:43  |  inverted 
+			 1083.92913385827 
+			 1232.94911544417 
+			 left
+19:30:43  |  addLogoInfo()
+19:30:43  |  black 
+			 1750.85826771654 
+			 1232.94911544417 
+			 left
+19:30:43  |  addLogoInfo()
+19:30:43  |  white 
+			 2417.7874015748 
+			 1232.94911544417 
+			 left
+19:30:49  |  
+19:30:49  |  addMarginToArtboard()
+19:30:49  |  20 
+			 px 
+			 undefined 
+			 alltypes 
+			 fullcolor,inverted,black,white 
+			 Digital 
+			 true,true,15-10-10-95,true,5-5-5
+19:30:49  |  artboardLength 13
+19:30:49  |  addMargins()
+19:30:49  |  [Document interieuspullencom] 
+			 [Artboard logomark-fullcolor-rgb] 
+			  
+			 px 
+			 16
+19:30:49  |  
+19:30:49  |  setLogoInfo()
+19:30:49  |  [Document interieuspullencom] 
+			 logo 
+			 inverted,black,white 
+			 1 
+			 1
+19:30:49  |  initArtboardsLength 1
+19:30:49  |  addLogoInfo()
+19:30:49  |  logo 
+			 402 
+			 2380.21014046876 
+			 right
+19:30:49  |  Add logo info Error: No such element
+19:30:49  |  addLogoInfo()
+19:30:49  |  fullcolor 
+			 417 
+			 2408.21014046876 
+			 left
+19:30:49  |  addLogoInfo()
+19:30:49  |  inverted 
+			 1083.92913385827 
+			 2408.21014046876 
+			 left
+19:30:49  |  addLogoInfo()
+19:30:49  |  black 
+			 1750.85826771653 
+			 2408.21014046876 
+			 left
+19:30:49  |  addLogoInfo()
+19:30:49  |  white 
+			 2417.7874015748 
+			 2408.21014046876 
+			 left
+19:30:49  |  
+19:30:49  |  setLogoInfo()
+19:30:49  |  [Document interieuspullencom] 
+			 logomark 
+			 inverted,black,white 
+			 5 
+			 5
+19:30:49  |  initArtboardsLength 5
+19:30:49  |  addLogoInfo()
+19:30:49  |  logomark 
+			 402 
+			 2169.49159924967 
+			 right
+19:30:50  |  addLogoInfo()
+19:30:50  |  fullcolor 
+			 417 
+			 2197.49159924967 
+			 left
+19:30:50  |  addLogoInfo()
+19:30:50  |  inverted 
+			 1083.92146933939 
+			 2177.49159924967 
+			 left
+19:30:50  |  addLogoInfo()
+19:30:50  |  black 
+			 1750.84293867878 
+			 2177.49159924967 
+			 left
+19:30:50  |  addLogoInfo()
+19:30:50  |  white 
+			 2417.76440801816 
+			 2177.49159924967 
+			 left
+19:30:50  |  
+19:30:50  |  setLogoInfo()
+19:30:50  |  [Document interieuspullencom] 
+			 logotype 
+			 inverted,black,white 
+			 9 
+			 9
+19:30:50  |  initArtboardsLength 9
+19:30:50  |  addLogoInfo()
+19:30:50  |  logotype 
+			 402 
+			 1482.5624653914 
+			 right
+19:30:50  |  addLogoInfo()
+19:30:50  |  fullcolor 
+			 417 
+			 1510.5624653914 
+			 left
+19:30:50  |  addLogoInfo()
+19:30:50  |  inverted 
+			 1083.92913385827 
+			 1510.5624653914 
+			 left
+19:30:50  |  addLogoInfo()
+19:30:50  |  black 
+			 1750.85826771653 
+			 1510.5624653914 
+			 left
+19:30:50  |  addLogoInfo()
+19:30:50  |  white 
+			 2417.7874015748 
+			 1510.5624653914 
+			 left
+19:30:50  |  
+19:30:50  |  setLogoInfo()
+19:30:50  |  [Document interieuspullencom] 
+			 payoff 
+			 inverted,black,white 
+			 13 
+			 13
+19:30:50  |  initArtboardsLength 13
+19:30:50  |  addLogoInfo()
+19:30:50  |  payoff 
+			 402 
+			 1204.94911544417 
+			 right
+19:30:50  |  addLogoInfo()
+19:30:50  |  fullcolor 
+			 417 
+			 1232.94911544417 
+			 left
+19:30:50  |  addLogoInfo()
+19:30:50  |  inverted 
+			 1083.92913385827 
+			 1232.94911544417 
+			 left
+19:30:50  |  addLogoInfo()
+19:30:50  |  black 
+			 1750.85826771654 
+			 1232.94911544417 
+			 left
+19:30:50  |  addLogoInfo()
+19:30:50  |  white 
+			 2417.7874015748 
+			 1232.94911544417 
+			 left
+19:30:54  |  
+19:30:54  |  addMarginToArtboard()
+19:30:54  |  0 
+			 px 
+			 all 
+			 alltypes 
+			 fullcolor,inverted,black,white 
+			 Digital 
+			 true,true,15-10-10-95,true,5-5-5
+19:30:54  |  artboardLength 13
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard payoff-white-rgb] 
+			  
+			 px 
+			 15
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard payoff-black-rgb] 
+			  
+			 px 
+			 14
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard payoff-inverted-rgb] 
+			  
+			 px 
+			 13
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard payoff-fullcolor-rgb] 
+			  
+			 px 
+			 12
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logotype-white-rgb] 
+			  
+			 px 
+			 11
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logotype-black-rgb] 
+			  
+			 px 
+			 10
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logotype-inverted-rgb] 
+			  
+			 px 
+			 9
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logotype-fullcolor-rgb] 
+			  
+			 px 
+			 8
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logomark-white-rgb] 
+			  
+			 px 
+			 7
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logomark-black-rgb] 
+			  
+			 px 
+			 6
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logomark-inverted-rgb] 
+			  
+			 px 
+			 5
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logomark-fullcolor-rgb] 
+			  
+			 px 
+			 4
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logo-white-rgb] 
+			  
+			 px 
+			 3
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logo-black-rgb] 
+			  
+			 px 
+			 2
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logo-inverted-rgb] 
+			  
+			 px 
+			 1
+19:30:54  |  addMargins()
+19:30:54  |  [Document interieuspullencom] 
+			 [Artboard logo-fullcolor-rgb] 
+			  
+			 px 
+			 0
+19:30:54  |  
+19:30:54  |  setLogoInfo()
+19:30:54  |  [Document interieuspullencom] 
+			 logo 
+			 inverted,black,white 
+			 1 
+			 1
+19:30:54  |  initArtboardsLength 1
+19:30:54  |  addLogoInfo()
+19:30:54  |  logo 
+			 402 
+			 2380.21014046876 
+			 right
+19:30:54  |  Add logo info Error: No such element
+19:30:54  |  addLogoInfo()
+19:30:54  |  fullcolor 
+			 417 
+			 2408.21014046876 
+			 left
+19:30:54  |  addLogoInfo()
+19:30:54  |  inverted 
+			 1083.92913385827 
+			 2408.21014046876 
+			 left
+19:30:54  |  addLogoInfo()
+19:30:54  |  black 
+			 1750.85826771653 
+			 2408.21014046876 
+			 left
+19:30:54  |  addLogoInfo()
+19:30:54  |  white 
+			 2417.7874015748 
+			 2408.21014046876 
+			 left
+19:30:54  |  
+19:30:54  |  setLogoInfo()
+19:30:54  |  [Document interieuspullencom] 
+			 logomark 
+			 inverted,black,white 
+			 5 
+			 5
+19:30:54  |  initArtboardsLength 5
+19:30:54  |  addLogoInfo()
+19:30:54  |  logomark 
+			 422 
+			 2149.49159924967 
+			 right
+19:30:54  |  addLogoInfo()
+19:30:54  |  fullcolor 
+			 437 
+			 2177.49159924967 
+			 left
+19:30:54  |  addLogoInfo()
+19:30:54  |  inverted 
+			 1083.92146933939 
+			 2177.49159924967 
+			 left
+19:30:54  |  addLogoInfo()
+19:30:54  |  black 
+			 1750.84293867878 
+			 2177.49159924967 
+			 left
+19:30:54  |  addLogoInfo()
+19:30:54  |  white 
+			 2417.76440801816 
+			 2177.49159924967 
+			 left
+19:30:54  |  
+19:30:54  |  setLogoInfo()
+19:30:54  |  [Document interieuspullencom] 
+			 logotype 
+			 inverted,black,white 
+			 9 
+			 9
+19:30:54  |  initArtboardsLength 9
+19:30:54  |  addLogoInfo()
+19:30:54  |  logotype 
+			 402 
+			 1482.5624653914 
+			 right
+19:30:54  |  addLogoInfo()
+19:30:54  |  fullcolor 
+			 417 
+			 1510.5624653914 
+			 left
+19:30:54  |  addLogoInfo()
+19:30:54  |  inverted 
+			 1083.92913385827 
+			 1510.5624653914 
+			 left
+19:30:54  |  addLogoInfo()
+19:30:54  |  black 
+			 1750.85826771653 
+			 1510.5624653914 
+			 left
+19:30:54  |  addLogoInfo()
+19:30:54  |  white 
+			 2417.7874015748 
+			 1510.5624653914 
+			 left
+19:30:54  |  
+19:30:54  |  setLogoInfo()
+19:30:54  |  [Document interieuspullencom] 
+			 payoff 
+			 inverted,black,white 
+			 13 
+			 13
+19:30:54  |  initArtboardsLength 13
+19:30:54  |  addLogoInfo()
+19:30:55  |  payoff 
+			 402 
+			 1204.94911544417 
+			 right
+19:30:55  |  addLogoInfo()
+19:30:55  |  fullcolor 
+			 417 
+			 1232.94911544417 
+			 left
+19:30:55  |  addLogoInfo()
+19:30:55  |  inverted 
+			 1083.92913385827 
+			 1232.94911544417 
+			 left
+19:30:55  |  addLogoInfo()
+19:30:55  |  black 
+			 1750.85826771654 
+			 1232.94911544417 
+			 left
+19:30:55  |  addLogoInfo()
+19:30:55  |  white 
+			 2417.7874015748 
+			 1232.94911544417 
+			 left

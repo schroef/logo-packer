@@ -36,12 +36,12 @@ C:\Program Files\Adobe\Adobe Illustrator CC 2019\Support Files\Required
 
 **Windows:** 
 1. Run regedit 
-2. Navigate to HKEY_CURRENT_USER/Software/Adobe/CSXS.11, (CSXS.8 for CC 2018)
+2. Navigate to HKEY_CURRENT_USER/Software/Adobe/CSXS.9, (CSXS.8 for CC 2018)
 3. Add a new entry named PlayerDebugMode of type "string" with the value of "1".
 
 **macOS:**
 
-In the terminal, type: defaults write com.adobe.CSXS.11 PlayerDebugMode 1 (The plist is also located at /Users//Library/Preferences/com.adobe.CSXS.11.plist) (CSXS.8 for CC2018)
+In the terminal, type: defaults write com.adobe.CSXS.10 PlayerDebugMode 1 (The plist is also located at /Users//Library/Preferences/com.adobe.CSXS.10.plist) (CSXS.8 for CC2018)
 
 
 
@@ -57,7 +57,7 @@ Open the extension in Window > Extensions > Logo Packer and follow the instructi
 <details>
   <summary>More functions</summary>
   
-  ## Inverted logo type
+  ## Inverted logot ype
   ![inverted-logo-type-demo](https://raw.githubusercontent.com/wiki/schroef/logo-packer/inverted-logo-color-v132.gif?raw=true)
 
   ## Export sizes JPG & PNG
@@ -65,9 +65,6 @@ Open the extension in Window > Extensions > Logo Packer and follow the instructi
   
   ## Custom Black for Print & Digital
   ![custom-black-demo](https://raw.githubusercontent.com/wiki/schroef/logo-packer/custom-black-color-options-v132.gif?raw=true)
-  
-  ## Custom Gray for Print & Digital
-  ![custom-gray-demo](https://raw.githubusercontent.com/wiki/schroef/logo-packer/custom-gray-colors-v132.gif?raw=true)
 
   ## Margin & padding
   ![export-files-demo](https://github.com/mevCJ/logo-packer/blob/gh-pages/assets/margin-padding.gif?raw=true)
